@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 10)
+    (drawings 13)
     (tracks 2167)
     (zones 0)
     (modules 58)
@@ -3069,6 +3069,15 @@
     )
   )
 
+  (gr_text USB5V (at 100.7745 86.868 270) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text DOT/8MHz (at 95.885 107.2515) (layer F.SilkS)
+    (effects (font (size 1.3 1.3) (thickness 0.3)))
+  )
+  (gr_text "BOOT0\n+3V3\nGND\nSWDIO\nSWCLK" (at 90.1065 83.5025 270) (layer F.SilkS)
+    (effects (font (size 1.5 1.3) (thickness 0.3)) (justify left))
+  )
   (target plus (at 103.3145 85.852) (size 5) (width 0.1) (layer Edge.Cuts) (tstamp 5F1131E5))
   (target plus (at 60.96 104.013) (size 5) (width 0.1) (layer Edge.Cuts))
   (gr_text "MONSTER 64" (at 85.6615 130.937) (layer F.SilkS)
