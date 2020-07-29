@@ -18,3 +18,5 @@ Please see https://github.com/KimJorgensen/KungFuFlash for more information.
 This project started when I took notice of KFF and started looking at STM32
 schematics for all kinds of projects.  Then I decided I wanted an M7 based
 card and not just an M4, and also on 2-layer PCB. 
+
+Known issue: DOTclk needs to be level-translated to be used at PH0
