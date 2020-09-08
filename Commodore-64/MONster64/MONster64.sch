@@ -47,17 +47,6 @@ Entry Wire Line
 	1050 3600 1150 3500
 Entry Wire Line
 	1050 3700 1150 3600
-$Comp
-L Device:R_Pack04 RN1
-U 1 1 5DA66EB2
-P 1500 4600
-F 0 "RN1" V 1200 4600 50  0000 C CNN
-F 1 "100R" V 1700 4600 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x1206" V 1775 4600 50  0001 C CNN
-F 3 "YC324-JK-07100RL" H 1500 4600 50  0001 C CNN
-	1    1500 4600
-	0    1    1    0   
-$EndComp
 Entry Wire Line
 	1050 4300 1150 4400
 Entry Wire Line
@@ -66,17 +55,6 @@ Entry Wire Line
 	1050 4500 1150 4600
 Entry Wire Line
 	1050 4600 1150 4700
-$Comp
-L Device:R_Pack04 RN2
-U 1 1 5DA6909D
-P 1500 5200
-F 0 "RN2" V 1200 5200 50  0000 C CNN
-F 1 "100R" V 1700 5200 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x1206" V 1775 5200 50  0001 C CNN
-F 3 "YC324-JK-07100RL" H 1500 5200 50  0001 C CNN
-	1    1500 5200
-	0    1    1    0   
-$EndComp
 Entry Wire Line
 	1050 4900 1150 5000
 Entry Wire Line
@@ -1190,7 +1168,7 @@ L MCU_ST_STM32H7:STM32H753VITx U1
 U 1 1 5F3602BD
 P 5200 3850
 F 0 "U1" H 5600 1050 50  0000 C CNN
-F 1 "STM32H743VIT6" H 5800 1200 50  0000 C CNN
+F 1 "STM32H753VIT6" H 5800 1200 50  0000 C CNN
 F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 4500 1250 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00388325.pdf" H 5200 3850 50  0001 C CNN
 	1    5200 3850
@@ -3694,6 +3672,30 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic5355_6.pdf" H 2800 9950 
 	1    2800 9600
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R_Pack04 RN1
+U 1 1 5F6D8CCD
+P 1500 4600
+F 0 "RN1" V 1200 4600 50  0000 C CNN
+F 1 "100R" V 1700 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 1775 4600 50  0001 C CNN
+F 3 "CAT16-101J4LF" H 1500 4600 50  0001 C CNN
+	1    1500 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN2
+U 1 1 5F7CB446
+P 1500 5200
+F 0 "RN2" V 1200 5200 50  0000 C CNN
+F 1 "100R" V 1700 5200 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 1775 5200 50  0001 C CNN
+F 3 "CAT16-101J4LF" H 1500 5200 50  0001 C CNN
+	1    1500 5200
+	0    1    1    0   
+$EndComp
+NoConn ~ 2400 9600
+NoConn ~ 2400 9700
 Wire Bus Line
 	950  5500 950  8250
 Wire Bus Line

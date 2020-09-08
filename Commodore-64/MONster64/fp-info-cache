@@ -1,4 +1,4 @@
-17034955058427046
+17044527596838313
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -2282,6 +2282,20 @@ C64_EXPANSION_CARD_83mm
 44
 44
 CPU2
+C64_EXPANSION_CARD_129x105mm
+
+
+0
+50
+45
+CPU2
+C64_EXPANSION_CARD_129x110mm
+
+
+0
+50
+45
+CPU2
 C64_EXPANSION_PORT
 Through hole angled pin header, 2x22, 2.54mm pitch, 6mm pin length, double rows
 Through hole angled pin header THT 2x22 2.54mm double row
@@ -2359,6 +2373,13 @@ Through hole socket strip THT 2x18 2.54mm double row
 38
 38
 CPU2
+FlipChip9
+
+
+0
+9
+9
+CPU2
 LFCSP-6
 LFCSP 6pin Pitch 0.65mm
 LFCSP 6pin 2x2mm Pitch 0.65mm
@@ -2379,6 +2400,13 @@ Through hole pin header THT 1x04 2.54mm single row
 0
 12
 8
+CPU2
+R_Axial_DIN0204_L3.6mm_D1.6mm_P12.7mm_Horizontal
+Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=12.7mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0204 series Axial Horizontal pin pitch 12.7mm 0.167W length 3.6mm diameter 1.6mm
+0
+2
+2
 CPU2
 SRAM-AS6C4008-32DIP
 32-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils)
@@ -2415,12 +2443,26 @@ TR TO-3 TO3 TO-204
 4
 3
 CPU2
+Texas_DSBGA-15_1.36x2.16mm_Layout3x5_P0.5mm
+
+
+0
+15
+15
+CPU2
 USB_Micro-B_UJ2-MIBH-4
 Molex Vertical Micro USB Typ-B (http://www.molex.com/pdm_docs/sd/1051330031_sd.pdf)
 Micro-USB SMD Typ-B Vertical
 0
 11
 6
+CPU2
+USB_Micro-C_UJC-HP-3-SMT-TR
+Molex Vertical Micro USB Typ-B (http://www.molex.com/pdm_docs/sd/1051330031_sd.pdf)
+Micro-USB SMD Typ-B Vertical
+0
+10
+7
 CPU2
 VIC20_EXPANSIONPORT
 
