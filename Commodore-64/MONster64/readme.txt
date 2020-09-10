@@ -11,8 +11,8 @@
     changes to GPIO.
 
 
-Contains an ARM Cortex M7 microcontroller, 256MB Flash RAM, MicroSD card, USB
-all on a 2-LAYER PCB!
+Contains an ARM Cortex M7 microcontroller, 22 exposed GPIO, 256MB Flash RAM, 
+MicroSD card, MicroUSB -- all on a 2-LAYER PCB!
 
 Also contains an expansion header for 10/100base-T networking or other 
 high-speed interfacing such as video/sound.
