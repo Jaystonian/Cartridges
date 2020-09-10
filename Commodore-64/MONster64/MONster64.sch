@@ -3694,8 +3694,10 @@ F 3 "CAT16-101J4LF" H 1500 5200 50  0001 C CNN
 	1    1500 5200
 	0    1    1    0   
 $EndComp
-NoConn ~ 2400 9600
-NoConn ~ 2400 9700
+Wire Wire Line
+	2400 9700 2400 9600
+Wire Wire Line
+	2400 9600 2400 9500
 Wire Bus Line
 	950  5500 950  8250
 Wire Bus Line
@@ -3714,4 +3716,6 @@ Wire Bus Line
 	10250 800  10250 4500
 Wire Bus Line
 	6650 800  6650 8150
+Connection ~ 2400 9600
+Connection ~ 2400 9500
 $EndSCHEMATC
