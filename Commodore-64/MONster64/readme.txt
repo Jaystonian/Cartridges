@@ -1,4 +1,4 @@
-* Effectively an upgraded version of <b>"Kung Fu Flash"</b>
+* Effectively an upgraded version of "Kung Fu Flash"
 
 * fixes the PAL-only problem with KFF, due to jumper choice of DOTCLK or 
     standard 8MHz clock.  Internal PLL set to ~466Mhz @ 8.000 MHz OSC_IN,
