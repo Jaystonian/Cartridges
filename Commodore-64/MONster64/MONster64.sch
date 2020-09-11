@@ -1012,7 +1012,7 @@ F 3 "" H 1250 9550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 11850 10450 0    50   ~ 0
-400MHz\n256MB RAM EXPANSION\nETHERNET/WIFI, USB\nHDMI, YPbPr, VGA, TFT outputs? Sound device?\nCoprocessor w/ RNG\nJPEG hardware compressor/decompressor (+DMA2D)
+480MHz\n256MB RAM EXPANSION\nETHERNET/WIFI, USB, HDMI, YPbPr, VGA, TFT outputs? Sound device?\nCoprocessor w/ RNG, JPEG hardware compressor/decompressor (+DMA2D)\nCrypto, AI
 $Comp
 L Device:C C19
 U 1 1 5F9CCFB1
@@ -3698,6 +3698,8 @@ Wire Wire Line
 	2400 9700 2400 9600
 Wire Wire Line
 	2400 9600 2400 9500
+Connection ~ 2400 9600
+Connection ~ 2400 9500
 Wire Bus Line
 	950  5500 950  8250
 Wire Bus Line
@@ -3716,6 +3718,4 @@ Wire Bus Line
 	10250 800  10250 4500
 Wire Bus Line
 	6650 800  6650 8150
-Connection ~ 2400 9600
-Connection ~ 2400 9500
 $EndSCHEMATC

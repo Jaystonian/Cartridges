@@ -21,4 +21,13 @@ Please see https://github.com/KimJorgensen/KungFuFlash for more information.
 
 This project started when I took notice of KFF and started looking at STM32
 schematics for all kinds of projects.  Then I decided I wanted an M7 based
-card and not just an M4, and also on 2-layer PCB. 
+card and not just an M4, and also on 2-layer PCB.
+
+===============================================================================
+
+2020-09-10: First status update.  Device is built, power domains are working,
+clock is working.  I can connect a MicroUSB cable to my computer, registers
+as a DFU, which can then be accessed by STM32 Cube Programmer via USB.  My
+ST-LINK V2 won't connect to the stm at all, it appears to be an ebay model.
+Ordering a STLINK-v3set. I have updated the gerbers with small changes, I do
+not expect any further changes, device otherwise has passed basic tests.
