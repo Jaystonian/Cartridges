@@ -1,3 +1,5 @@
+MONster64 -- An STM32 Development Board for Commodore C64 & C128 Expansion Port
+
 * Effectively an upgraded version of "Kung Fu Flash"
 
 * fixes the PAL-only problem with KFF, due to jumper choice of DOTCLK or 
