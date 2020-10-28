@@ -1,0 +1,817 @@
+Modules list:
+-------------
+crt0.crt.o:
+    CODE              Offs=000000  Size=000062  Align=00001  Fill=0000
+    ULTIMAX           Offs=000000  Size=000026  Align=00001  Fill=0000
+    VECTORS           Offs=000000  Size=000006  Align=00001  Fill=0000
+main.o:
+    CODE              Offs=000062  Size=000A93  Align=00001  Fill=0000
+    RODATA            Offs=000000  Size=00034D  Align=00001  Fill=0000
+    BSS               Offs=000000  Size=000046  Align=00001  Fill=0000
+    DATA              Offs=000000  Size=000005  Align=00001  Fill=0000
+    LOWCODE           Offs=000000  Size=000064  Align=00001  Fill=0000
+base.o:
+    CODE              Offs=000AF5  Size=000060  Align=00001  Fill=0000
+    RODATA            Offs=00034D  Size=00000C  Align=00001  Fill=0000
+    BSS               Offs=000046  Size=000001  Align=00001  Fill=0000
+screen.o:
+    CODE              Offs=000B55  Size=0000C1  Align=00001  Fill=0000
+    BSS               Offs=000047  Size=000002  Align=00001  Fill=0000
+dir.o:
+    CODE              Offs=000C16  Size=000122  Align=00001  Fill=0000
+    BSS               Offs=000049  Size=00002A  Align=00001  Fill=0000
+kff_usb.o:
+    CODE              Offs=000D38  Size=000063  Align=00001  Fill=0000
+    DATA              Offs=000005  Size=000007  Align=00001  Fill=0000
+disk.o:
+    CODE              Offs=000D9B  Size=0004B4  Align=00001  Fill=0000
+launcher_asm.o:
+    CODE              Offs=00124F  Size=00009A  Align=00001  Fill=0000
+    BSS               Offs=000073  Size=00000C  Align=00001  Fill=0000
+    DATA              Offs=00000C  Size=000071  Align=00001  Fill=0000
+../3rd_party/libef3usb/libef3usb.lib(ef3usb_check_cmd.o):
+    CODE              Offs=0012E9  Size=00003B  Align=00001  Fill=0000
+    BSS               Offs=00007F  Size=00000C  Align=00001  Fill=0000
+../3rd_party/libef3usb/libef3usb.lib(ef3usb_send_data.o):
+    CODE              Offs=001324  Size=000032  Align=00001  Fill=0000
+../3rd_party/libef3usb/libef3usb.lib(ef3usb_send_str.o):
+    CODE              Offs=001356  Size=000020  Align=00001  Fill=0000
+../3rd_party/libef3usb/libef3usb.lib(ef3usb_fread.o):
+    CODE              Offs=001376  Size=000074  Align=00001  Fill=0000
+../3rd_party/libef3usb/libef3usb.lib(ef3usb_fload.o):
+    CODE              Offs=0013EA  Size=000093  Align=00001  Fill=0000
+../3rd_party/libef3usb/libef3usb.lib(ef3usb_fclose.o):
+    CODE              Offs=00147D  Size=000013  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(_cursor.o):
+    BSS               Offs=00008B  Size=000001  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(_directerrno.o):
+    CODE              Offs=001490  Size=00000A  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(_heap.o):
+    DATA              Offs=00007D  Size=00000A  Align=00001  Fill=0000
+    ONCE              Offs=000000  Size=000010  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(_hextab.o):
+    RODATA            Offs=000359  Size=000010  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(_longminstr.o):
+    RODATA            Offs=000369  Size=00000C  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(_oserror.o):
+    BSS               Offs=00008C  Size=000001  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(_printf.o):
+    CODE              Offs=00149A  Size=0003A5  Align=00001  Fill=0000
+    BSS               Offs=00008D  Size=00002B  Align=00001  Fill=0000
+    DATA              Offs=000087  Size=000003  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(_seterrno.o):
+    CODE              Offs=00183F  Size=000009  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(add.o):
+    CODE              Offs=001848  Size=00001C  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(addysp.o):
+    CODE              Offs=001864  Size=00000E  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(axlong.o):
+    CODE              Offs=001872  Size=00000D  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(bordercolor.o):
+    CODE              Offs=00187F  Size=000008  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(cclear.o):
+    CODE              Offs=001887  Size=000015  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(cgetc.o):
+    CODE              Offs=00189C  Size=000047  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(chline.o):
+    CODE              Offs=0018E3  Size=000015  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(clinechars.o):
+C:\ST\cc65\lib/c64.lib(clrscr.o):
+C:\ST\cc65\lib/c64.lib(color.o):
+    CODE              Offs=0018F8  Size=000010  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(condes.o):
+    CODE              Offs=001908  Size=00000C  Align=00001  Fill=0000
+    DATA              Offs=00008A  Size=000025  Align=00001  Fill=0000
+    ONCE              Offs=000010  Size=00000C  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(conio.o):
+C:\ST\cc65\lib/c64.lib(copydata.o):
+    CODE              Offs=001914  Size=00002D  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(cprintf.o):
+    CODE              Offs=001941  Size=00002A  Align=00001  Fill=0000
+    BSS               Offs=0000B8  Size=000001  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(cputc.o):
+    CODE              Offs=00196B  Size=00006D  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(cputs.o):
+    CODE              Offs=0019D8  Size=000023  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(ctype.o):
+    RODATA            Offs=000375  Size=00008B  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(ctypemask.o):
+    CODE              Offs=0019FB  Size=00001E  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(cvline.o):
+    CODE              Offs=001A19  Size=000018  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(decsp4.o):
+    CODE              Offs=001A31  Size=00000D  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(decsp6.o):
+    CODE              Offs=001A3E  Size=00000D  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(errno.o):
+    BSS               Offs=0000B9  Size=000002  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(free.o):
+    CODE              Offs=001A4B  Size=0001D3  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(gotoxy.o):
+    CODE              Offs=001C1E  Size=00000D  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(icmp.o):
+    CODE              Offs=001C2B  Size=00002E  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(incax1.o):
+    CODE              Offs=001C59  Size=000007  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(incaxy.o):
+    CODE              Offs=001C60  Size=00000B  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(incsp1.o):
+    CODE              Offs=001C6B  Size=000007  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(incsp2.o):
+    CODE              Offs=001C72  Size=000016  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(incsp3.o):
+    CODE              Offs=001C88  Size=000005  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(incsp6.o):
+    CODE              Offs=001C8D  Size=000005  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(incsp8.o):
+    CODE              Offs=001C92  Size=000005  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(joy-kernel.o):
+    CODE              Offs=001C97  Size=00004D  Align=00001  Fill=0000
+    RODATA            Offs=000400  Size=000004  Align=00001  Fill=0000
+    BSS               Offs=0000BB  Size=000002  Align=00001  Fill=0000
+    DATA              Offs=0000AF  Size=00000C  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(joy_read.o):
+C:\ST\cc65\lib/c64.lib(joy_stat_stddrv.o):
+C:\ST\cc65\lib/c64.lib(kbhit.o):
+    CODE              Offs=001CE4  Size=000009  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(kernal.o):
+C:\ST\cc65\lib/c64.lib(kplot.o):
+    CODE              Offs=001CED  Size=00000B  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(ldaxsp.o):
+    CODE              Offs=001CF8  Size=000009  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(libref.o):
+C:\ST\cc65\lib/c64.lib(lneg.o):
+    CODE              Offs=001D01  Size=00001E  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(lpush.o):
+    CODE              Offs=001D1F  Size=000021  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(ltoa.o):
+    CODE              Offs=001D40  Size=000095  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(makebool.o):
+    CODE              Offs=001DD5  Size=00002C  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(malloc.o):
+    CODE              Offs=001E01  Size=00010E  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(memcpy.o):
+    CODE              Offs=001F0F  Size=00003C  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(memset.o):
+    CODE              Offs=001F4B  Size=00005D  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(mul8.o):
+    CODE              Offs=001FA8  Size=00003A  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(popa.o):
+    CODE              Offs=001FE2  Size=00000C  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(popptr1.o):
+    CODE              Offs=001FEE  Size=00000E  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(push1.o):
+    CODE              Offs=001FFC  Size=000005  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(pusha.o):
+    CODE              Offs=002001  Size=000016  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(pushax.o):
+    CODE              Offs=002017  Size=00001A  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(pushwsp.o):
+    CODE              Offs=002031  Size=00001C  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(revers.o):
+    CODE              Offs=00204D  Size=000014  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(sprintf.o):
+    CODE              Offs=002061  Size=00002B  Align=00001  Fill=0000
+    BSS               Offs=0000BD  Size=000001  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(staxsp.o):
+    CODE              Offs=00208C  Size=00000B  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(strcmp.o):
+    CODE              Offs=002097  Size=000021  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(strlen.o):
+    CODE              Offs=0020B8  Size=000016  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(strlower.o):
+    CODE              Offs=0020CE  Size=000027  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(vcprintf.o):
+    CODE              Offs=0020F5  Size=00007A  Align=00001  Fill=0000
+    DATA              Offs=0000BB  Size=000008  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(vsnprintf.o):
+    CODE              Offs=00216F  Size=0000DA  Align=00001  Fill=0000
+    DATA              Offs=0000C3  Size=000008  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(vsprintf.o):
+    CODE              Offs=002249  Size=000012  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(zerobss.o):
+    CODE              Offs=00225B  Size=000023  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(zeropage.o):
+    ZEROPAGE          Offs=000000  Size=00001A  Align=00001  Fill=0000
+C:\ST\cc65\lib/c64.lib(c64-stdjoy-joy.o):
+    CODE              Offs=00227E  Size=000032  Align=00001  Fill=0000
+    DATA              Offs=0000CB  Size=00000E  Align=00001  Fill=0000
+
+
+Segment list:
+-------------
+Name                   Start     End    Size  Align
+----------------------------------------------------
+ZEROPAGE              000002  00001B  00001A  00001
+DATA                  000800  0008D8  0000D9  00001
+BSS                   0008D9  000996  0000BE  00001
+LOWCODE               008000  008063  000064  00001
+ONCE                  008064  00807F  00001C  00001
+INIT                  008080  008081  000002  00001
+CODE                  008100  00A3AF  0022B0  00001
+RODATA                00A400  00A803  000404  00001
+ULTIMAX               00FF80  00FFA5  000026  00001
+VECTORS               00FFFA  00FFFF  000006  00001
+
+
+Exports list by name:
+---------------------
+BSOUT                     00FFD2 RLA    CURS_X                    0000D3 RLZ    
+CURS_Y                    0000D6 RLZ    PLOT                      009DED RLA    
+__BSS_RUN__               0008D9 RLA    __BSS_SIZE__              0000BE REA    
+__CONSTRUCTOR_COUNT__     000001 REA    __CONSTRUCTOR_TABLE__     008080 RLA    
+__DATA_LOAD__             00A804 RLA    __DATA_RUN__              000800 RLA    
+__DATA_SIZE__             0000D9 REA    __DESTRUCTOR_COUNT__      000000 REA    
+__DESTRUCTOR_TABLE__      00A804 RLA    __RAM_SIZE__              007800 REA    
+__RAM_START__             000800 RLA    __STACKSIZE__             000800 REA    
+__STARTUP__               000001 REA    __bzero                   00A04B RLA    
+__ctype                   00A775 RLA    __ctypeidx                00A780 RLA    
+__directerrno             009590 RLA    __errno                   000992 RLA    
+__heapend                 000881 RLA    __heapfirst               000883 RLA    
+__heaplast                000885 RLA    __heapptr                 00087F RLA    
+__hextab                  00A759 RLA    __longminstr              00A769 RLA    
+__oserror                 000965 RLA    __printf                  00968D RLA    
+__seterrno                00993F RLA    _bgcolor                  009A00 RLA    
+_bordercolor              00997F RLA    _c64_stdjoy_joy           0008CB RLA    
+_cclearxy                 009987 RLA    _cgetc                    00999C RLA    
+_chline                   0099E8 RLA    _clrscr                   00E544 REA    
+_cprintf                  009A41 RLA    _cputc                    009A70 RLA    
+_cputs                    009AE2 RLA    _cvlinexy                 009B19 RLA    
+_disk_mount_and_load      008E9B RLA    _drawFrame                008CAF RLA    
+_ef3usb_check_cmd         0093E9 RLA    _ef3usb_fclose            00957D RLA    
+_ef3usb_fload             0094EA RLA    _ef3usb_get_cmd           00080C RLA    
+_ef3usb_receive_data      009476 RLA    _ef3usb_send_data         009424 RLA    
+_ef3usb_send_str          009456 RLA    _exit                     00812B RLA    
+_free                     009B4B RLA    _gotoxy                   009D21 RLA    
+_initScreen               008CF8 RLA    _is_c128                  000877 RLA    
+_joy_install              009D97 RLA    _joy_read                 0008B8 REA    
+_joy_static_stddrv        0008CB RLA    _kbhit                    009DE4 RLA    
+_kff_send_command         008E59 RLA    _kff_send_ext_command     008E77 RLA    
+_ltoa                     009E58 RLA    _main                     008B86 RLA    
+_malloc                   009F01 RLA    _memcpy                   00A00F RLA    
+_readDir                  008D16 RLA    _readDirPage              008D5F RLA    
+_revers                   00A14D RLA    _sprintf                  00A161 RLA    
+_strcmp                   00A197 RLA    _strlen                   00A1B8 RLA    
+_strlower                 00A1CE RLA    _textcolor                0099F8 RLA    
+_ultoa                    009E99 RLA    _usbtool_prg_load_and_run 00934F RLA    
+_vcprintf                 00A23F RLA    _vsprintf                 00A349 RLA    
+_waitKey                  008BF5 RLA    _wait_for_reset           000859 RLA    
+addysp                    009965 RLA    axlong                    009972 RLA    
+axulong                   009978 RLA    booleq                    009EDB RLA    
+boolne                    009ED5 RLA    chlinechar                000040 REZ    
+copydata                  009A14 RLA    cputdirect                009A8F RLA    
+ctypemaskdirect           009AFF RLA    cursor                    000964 RLA    
+cvlinechar                00005D REZ    decsp4                    009B31 RLA    
+decsp6                    009B3E RLA    donelib                   009A08 RLA    
+gotoxy                    009D1E RLA    incax1                    009D59 RLA    
+incaxy                    009D62 RLA    incsp1                    009D6B RLA    
+incsp2                    009D7A RLA    incsp3                    009D88 RLA    
+incsp6                    009D8D RLA    incsp8                    009D92 RLA    
+init_system_constants_light 008131 RLA    initheap                  008064  LAI   
+initlib                   008074 RLA    joy_libref                00812B RLA    
+joy_read                  0008B8 RLA    ldax0sp                   009DF8 RLA    
+ldaxysp                   009DFA RLA    negeax                    009E01 RLA    
+newline                   009A9F RLA    plot                      009AC4 RLA    
+popa                      00A0E2 RLA    popax                     009D72 RLA    
+popptr1                   00A0EE RLA    ptr1                      00000A RLZ    
+ptr2                      00000C RLZ    ptr3                      00000E RLZ    
+ptr4                      000010 RLZ    push1                     00A0FC RLA    
+pusha                     00A105 RLA    pusha0                    00A119 RLA    
+pushax                    00A11B RLA    pusheax                   009E28 RLA    
+pushw0sp                  00A131 RLA    putchar                   009ACC RLA    
+regbank                   000016 RLZ    sp                        000002 RLZ    
+sreg                      000004 RLZ    staxysp                   00A18E RLA    
+tmp1                      000012 RLZ    tosaddax                  00994A RLA    
+tosicmp                   009D2D RLA    tosicmp0                  009D2B RLA    
+tosmula0                  00A0A8 RLA    vsnprintf                 00A272 RLA    
+zerobss                   00A35B RLA    
+
+
+Exports list by value:
+----------------------
+__DESTRUCTOR_COUNT__      000000 REA    __STARTUP__               000001 REA    
+__CONSTRUCTOR_COUNT__     000001 REA    sp                        000002 RLZ    
+sreg                      000004 RLZ    ptr1                      00000A RLZ    
+ptr2                      00000C RLZ    ptr3                      00000E RLZ    
+ptr4                      000010 RLZ    tmp1                      000012 RLZ    
+regbank                   000016 RLZ    chlinechar                000040 REZ    
+cvlinechar                00005D REZ    __BSS_SIZE__              0000BE REA    
+CURS_X                    0000D3 RLZ    CURS_Y                    0000D6 RLZ    
+__DATA_SIZE__             0000D9 REA    __DATA_RUN__              000800 RLA    
+__STACKSIZE__             000800 REA    __RAM_START__             000800 RLA    
+_ef3usb_get_cmd           00080C RLA    _wait_for_reset           000859 RLA    
+_is_c128                  000877 RLA    __heapptr                 00087F RLA    
+__heapend                 000881 RLA    __heapfirst               000883 RLA    
+__heaplast                000885 RLA    joy_read                  0008B8 RLA    
+_joy_read                 0008B8 REA    _joy_static_stddrv        0008CB RLA    
+_c64_stdjoy_joy           0008CB RLA    __BSS_RUN__               0008D9 RLA    
+cursor                    000964 RLA    __oserror                 000965 RLA    
+__errno                   000992 RLA    __RAM_SIZE__              007800 REA    
+initheap                  008064  LAI   initlib                   008074 RLA    
+__CONSTRUCTOR_TABLE__     008080 RLA    joy_libref                00812B RLA    
+_exit                     00812B RLA    init_system_constants_light 008131 RLA    
+_main                     008B86 RLA    _waitKey                  008BF5 RLA    
+_drawFrame                008CAF RLA    _initScreen               008CF8 RLA    
+_readDir                  008D16 RLA    _readDirPage              008D5F RLA    
+_kff_send_command         008E59 RLA    _kff_send_ext_command     008E77 RLA    
+_disk_mount_and_load      008E9B RLA    _usbtool_prg_load_and_run 00934F RLA    
+_ef3usb_check_cmd         0093E9 RLA    _ef3usb_send_data         009424 RLA    
+_ef3usb_send_str          009456 RLA    _ef3usb_receive_data      009476 RLA    
+_ef3usb_fload             0094EA RLA    _ef3usb_fclose            00957D RLA    
+__directerrno             009590 RLA    __printf                  00968D RLA    
+__seterrno                00993F RLA    tosaddax                  00994A RLA    
+addysp                    009965 RLA    axlong                    009972 RLA    
+axulong                   009978 RLA    _bordercolor              00997F RLA    
+_cclearxy                 009987 RLA    _cgetc                    00999C RLA    
+_chline                   0099E8 RLA    _textcolor                0099F8 RLA    
+_bgcolor                  009A00 RLA    donelib                   009A08 RLA    
+copydata                  009A14 RLA    _cprintf                  009A41 RLA    
+_cputc                    009A70 RLA    cputdirect                009A8F RLA    
+newline                   009A9F RLA    plot                      009AC4 RLA    
+putchar                   009ACC RLA    _cputs                    009AE2 RLA    
+ctypemaskdirect           009AFF RLA    _cvlinexy                 009B19 RLA    
+decsp4                    009B31 RLA    decsp6                    009B3E RLA    
+_free                     009B4B RLA    gotoxy                    009D1E RLA    
+_gotoxy                   009D21 RLA    tosicmp0                  009D2B RLA    
+tosicmp                   009D2D RLA    incax1                    009D59 RLA    
+incaxy                    009D62 RLA    incsp1                    009D6B RLA    
+popax                     009D72 RLA    incsp2                    009D7A RLA    
+incsp3                    009D88 RLA    incsp6                    009D8D RLA    
+incsp8                    009D92 RLA    _joy_install              009D97 RLA    
+_kbhit                    009DE4 RLA    PLOT                      009DED RLA    
+ldax0sp                   009DF8 RLA    ldaxysp                   009DFA RLA    
+negeax                    009E01 RLA    pusheax                   009E28 RLA    
+_ltoa                     009E58 RLA    _ultoa                    009E99 RLA    
+boolne                    009ED5 RLA    booleq                    009EDB RLA    
+_malloc                   009F01 RLA    _memcpy                   00A00F RLA    
+__bzero                   00A04B RLA    tosmula0                  00A0A8 RLA    
+popa                      00A0E2 RLA    popptr1                   00A0EE RLA    
+push1                     00A0FC RLA    pusha                     00A105 RLA    
+pusha0                    00A119 RLA    pushax                    00A11B RLA    
+pushw0sp                  00A131 RLA    _revers                   00A14D RLA    
+_sprintf                  00A161 RLA    staxysp                   00A18E RLA    
+_strcmp                   00A197 RLA    _strlen                   00A1B8 RLA    
+_strlower                 00A1CE RLA    _vcprintf                 00A23F RLA    
+vsnprintf                 00A272 RLA    _vsprintf                 00A349 RLA    
+zerobss                   00A35B RLA    __hextab                  00A759 RLA    
+__longminstr              00A769 RLA    __ctype                   00A775 RLA    
+__ctypeidx                00A780 RLA    __DATA_LOAD__             00A804 RLA    
+__DESTRUCTOR_TABLE__      00A804 RLA    _clrscr                   00E544 REA    
+BSOUT                     00FFD2 RLA    
+
+
+Imports list:
+-------------
+BSOUT (kernal.o):
+    crt0.crt.o                crt0.crt.s(35)
+CURS_X (conio.o):
+    gotoxy.o                  cbm/gotoxy.s(9)
+CURS_Y (conio.o):
+    gotoxy.o                  cbm/gotoxy.s(9)
+PLOT (kplot.o):
+    cputc.o                   c64/cputc.s(11)
+__BSS_RUN__ ([linker generated]):
+    _heap.o                   common/_heap.s(8)
+    zerobss.o                 common/zerobss.s(8)
+__BSS_SIZE__ ([linker generated]):
+    _heap.o                   common/_heap.s(8)
+    zerobss.o                 common/zerobss.s(8)
+__CONSTRUCTOR_COUNT__ ([linker generated]):
+    condes.o                  runtime/condes.s(18)
+__CONSTRUCTOR_TABLE__ ([linker generated]):
+    condes.o                  runtime/condes.s(18)
+__DATA_LOAD__ ([linker generated]):
+    copydata.o                common/copydata.s(8)
+__DATA_RUN__ ([linker generated]):
+    copydata.o                common/copydata.s(8)
+__DATA_SIZE__ ([linker generated]):
+    copydata.o                common/copydata.s(8)
+__DESTRUCTOR_COUNT__ ([linker generated]):
+    condes.o                  runtime/condes.s(19)
+__DESTRUCTOR_TABLE__ ([linker generated]):
+    condes.o                  runtime/condes.s(19)
+__RAM_SIZE__ ([linker generated]):
+    crt0.crt.o                crt0.crt.s(36)
+__RAM_START__ ([linker generated]):
+    crt0.crt.o                crt0.crt.s(36)
+__STACKSIZE__ ([linker generated]):
+    _heap.o                   common/_heap.s(8)
+__STARTUP__ (crt0.crt.o):
+    main.o                    build/main.s(13)
+__bzero (memset.o):
+    main.o                    build/main.s(2369)
+__ctype (ctype.o):
+    ctypemask.o               common/ctypemask.s(23)
+__ctypeidx (ctype.o):
+    ctypemask.o               common/ctypemask.s(24)
+__directerrno (_directerrno.o):
+    vsnprintf.o               /home/travis/build/cc65/cc65/asminc/errno.inc(10)
+__errno (errno.o):
+    _seterrno.o               /home/travis/build/cc65/cc65/asminc/errno.inc(7)
+__heapend (_heap.o):
+    malloc.o                  /home/travis/build/cc65/cc65/asminc/_heap.inc(33)
+__heapfirst (_heap.o):
+    malloc.o                  /home/travis/build/cc65/cc65/asminc/_heap.inc(34)
+    free.o                    /home/travis/build/cc65/cc65/asminc/_heap.inc(34)
+__heaplast (_heap.o):
+    malloc.o                  /home/travis/build/cc65/cc65/asminc/_heap.inc(35)
+    free.o                    /home/travis/build/cc65/cc65/asminc/_heap.inc(35)
+__heapptr (_heap.o):
+    malloc.o                  /home/travis/build/cc65/cc65/asminc/_heap.inc(32)
+    free.o                    /home/travis/build/cc65/cc65/asminc/_heap.inc(32)
+__hextab (_hextab.o):
+    ltoa.o                    common/ltoa.s(10)
+__longminstr (_longminstr.o):
+    ltoa.o                    common/ltoa.s(10)
+__oserror (_oserror.o):
+    _directerrno.o            /home/travis/build/cc65/cc65/asminc/errno.inc(7)
+__printf (_printf.o):
+    vsnprintf.o               common/vsnprintf.s(10)
+    vcprintf.o                conio/vcprintf.s(9)
+__seterrno (_seterrno.o):
+    _directerrno.o            /home/travis/build/cc65/cc65/asminc/errno.inc(9)
+_bgcolor (color.o):
+    screen.o                  build/screen.s(17)
+_bordercolor (bordercolor.o):
+    screen.o                  build/screen.s(18)
+_c64_stdjoy_joy (c64-stdjoy-joy.o):
+    joy_stat_stddrv.o         c64/joy_stat_stddrv.s(10)
+_cclearxy (cclear.o):
+    screen.o                  build/screen.s(21)
+_cgetc (cgetc.o):
+    base.o                    build/base.s(15)
+    main.o                    build/main.s(24)
+_chline (chline.o):
+    screen.o                  build/screen.s(19)
+_clrscr (clrscr.o):
+    screen.o                  build/screen.s(13)
+    main.o                    build/main.s(19)
+_cprintf (cprintf.o):
+    main.o                    build/main.s(23)
+_cputc (cputc.o):
+    vcprintf.o                conio/vcprintf.s(9)
+    cputs.o                   conio/cputs.s(9)
+    screen.o                  build/screen.s(15)
+_cputs (cputs.o):
+    base.o                    build/base.s(14)
+    main.o                    build/main.s(22)
+_cvlinexy (cvline.o):
+    screen.o                  build/screen.s(20)
+_disk_mount_and_load (disk.o):
+    main.o                    build/main.s(40)
+_drawFrame (screen.o):
+    main.o                    build/main.s(30)
+_ef3usb_check_cmd (ef3usb_check_cmd.o):
+    main.o                    build/main.s(35)
+_ef3usb_fclose (ef3usb_fclose.o):
+    launcher_asm.o            launcher_asm.s(29)
+_ef3usb_fload (ef3usb_fload.o):
+    launcher_asm.o            launcher_asm.s(28)
+_ef3usb_get_cmd (launcher_asm.o):
+    main.o                    build/main.s(42)
+_ef3usb_receive_data (ef3usb_fread.o):
+    dir.o                     build/dir.s(16)
+    main.o                    build/main.s(36)
+_ef3usb_send_data (ef3usb_send_data.o):
+    kff_usb.o                 build/kff_usb.s(13)
+_ef3usb_send_str (ef3usb_send_str.o):
+    main.o                    build/main.s(37)
+_exit (crt0.crt.o):
+    libref.o                  c64/libref.s(11)
+_free (free.o):
+    main.o                    build/main.s(18)
+_gotoxy (gotoxy.o):
+    screen.o                  build/screen.s(14)
+    main.o                    build/main.s(21)
+_initScreen (screen.o):
+    main.o                    build/main.s(31)
+_is_c128 (launcher_asm.o):
+    main.o                    build/main.s(44)
+_joy_install (joy-kernel.o):
+    main.o                    build/main.s(28)
+_joy_read (joy_read.o):
+    base.o                    build/base.s(18)
+    main.o                    build/main.s(29)
+_joy_static_stddrv (joy_stat_stddrv.o):
+    main.o                    build/main.s(27)
+_kbhit (kbhit.o):
+    base.o                    build/base.s(13)
+    main.o                    build/main.s(20)
+_kff_send_command (kff_usb.o):
+    main.o                    build/main.s(38)
+_kff_send_ext_command (kff_usb.o):
+    main.o                    build/main.s(39)
+_ltoa (ltoa.o):
+    _printf.o                 common/_printf.s(12)
+_main (main.o):
+    crt0.crt.o                crt0.crt.s(31)
+_malloc (malloc.o):
+    main.o                    build/main.s(17)
+_memcpy (memcpy.o):
+    vsnprintf.o               common/vsnprintf.s(10)
+    dir.o                     build/dir.s(13)
+_readDir (dir.o):
+    main.o                    build/main.s(32)
+_readDirPage (dir.o):
+    main.o                    build/main.s(33)
+_revers (revers.o):
+    base.o                    build/base.s(16)
+    main.o                    build/main.s(25)
+_sprintf (sprintf.o):
+    main.o                    build/main.s(14)
+_strcmp (strcmp.o):
+    main.o                    build/main.s(15)
+_strlen (strlen.o):
+    _printf.o                 common/_printf.s(13)
+_strlower (strlower.o):
+    _printf.o                 common/_printf.s(13)
+_textcolor (color.o):
+    screen.o                  build/screen.s(16)
+    base.o                    build/base.s(17)
+    main.o                    build/main.s(26)
+_ultoa (ltoa.o):
+    _printf.o                 common/_printf.s(12)
+_usbtool_prg_load_and_run (launcher_asm.o):
+    main.o                    build/main.s(41)
+_vcprintf (vcprintf.o):
+    cprintf.o                 conio/cprintf.s(8)
+_vsprintf (vsprintf.o):
+    sprintf.o                 common/sprintf.s(8)
+_waitKey (base.o):
+    main.o                    build/main.s(34)
+_wait_for_reset (launcher_asm.o):
+    main.o                    build/main.s(43)
+addysp (addysp.o):
+    incsp6.o                  runtime/incsp6.s(8)
+    sprintf.o                 common/sprintf.s(8)
+    incsp8.o                  runtime/incsp8.s(8)
+    incsp3.o                  runtime/incsp3.s(8)
+    cprintf.o                 conio/cprintf.s(8)
+axlong (axlong.o):
+    _printf.o                 common/_printf.s(11)
+axulong (axlong.o):
+    _printf.o                 common/_printf.s(11)
+booleq (makebool.o):
+    main.o                    build/main.s(2369)
+boolne (makebool.o):
+    main.o                    build/main.s(2369)
+chlinechar (clinechars.o):
+    chline.o                  cbm/chline.s(10)
+copydata (copydata.o):
+    crt0.crt.o                crt0.crt.s(33)
+cputdirect (cputc.o):
+    chline.o                  cbm/chline.s(9)
+    cclear.o                  cbm/cclear.s(9)
+ctypemaskdirect (ctypemask.o):
+    strlower.o                common/strlower.s(14)
+cursor (_cursor.o):
+    cgetc.o                   c64/cgetc.s(8)
+cvlinechar (clinechars.o):
+    cvline.o                  cbm/cvline.s(10)
+decsp4 (decsp4.o):
+    lpush.o                   runtime/lpush.s(12)
+    sprintf.o                 common/sprintf.s(8)
+decsp6 (decsp6.o):
+    _printf.o                 common/_printf.s(11)
+donelib (condes.o):
+    crt0.crt.o                crt0.crt.s(33)
+gotoxy (gotoxy.o):
+    cvline.o                  cbm/cvline.s(9)
+    cputs.o                   conio/cputs.s(9)
+    cputc.o                   c64/cputc.s(10)
+    chline.o                  cbm/chline.s(9)
+    cclear.o                  cbm/cclear.s(9)
+incax1 (incax1.o):
+    main.o                    build/main.s(2369)
+incaxy (incaxy.o):
+    dir.o                     build/dir.s(247)
+    main.o                    build/main.s(2369)
+incsp1 (incsp1.o):
+    kff_usb.o                 build/kff_usb.s(170)
+    kff_usb.o                 build/kff_usb.s(170)
+    main.o                    build/main.s(2369)
+    main.o                    build/main.s(2369)
+incsp2 (incsp2.o):
+    vsnprintf.o               common/vsnprintf.s(9)
+    popptr1.o                 runtime/popptr1.s(8)
+    kff_usb.o                 build/kff_usb.s(170)
+    dir.o                     build/dir.s(247)
+    dir.o                     build/dir.s(247)
+incsp3 (incsp3.o):
+    screen.o                  build/screen.s(211)
+    main.o                    build/main.s(2369)
+    main.o                    build/main.s(2369)
+incsp6 (incsp6.o):
+    vsnprintf.o               common/vsnprintf.s(9)
+incsp8 (incsp8.o):
+    screen.o                  build/screen.s(211)
+init_system_constants_light (crt0.crt.o):
+    launcher_asm.o            launcher_asm.s(27)
+    disk.o                    disk.s(24)
+initlib (condes.o):
+    crt0.crt.o                crt0.crt.s(33)
+joy_libref (libref.o):
+    joy-kernel.o              joystick/joy-kernel.s(7)
+joy_read (joy-kernel.o):
+    joy_read.o                /home/travis/build/cc65/cc65/asminc/joy-kernel.inc(71)
+ldax0sp (ldaxsp.o):
+    dir.o                     build/dir.s(247)
+    dir.o                     build/dir.s(247)
+ldaxysp (ldaxsp.o):
+    vsnprintf.o               common/vsnprintf.s(9)
+    screen.o                  build/screen.s(211)
+    main.o                    build/main.s(2369)
+negeax (lneg.o):
+    ltoa.o                    common/ltoa.s(9)
+newline (cputc.o):
+    cvline.o                  cbm/cvline.s(9)
+plot (cputc.o):
+    gotoxy.o                  cbm/gotoxy.s(8)
+popa (popa.o):
+    gotoxy.o                  cbm/gotoxy.s(8)
+popax (incsp2.o):
+    vsnprintf.o               common/vsnprintf.s(9)
+    ltoa.o                    common/ltoa.s(9)
+    _printf.o                 common/_printf.s(11)
+    vcprintf.o                conio/vcprintf.s(8)
+    memset.o                  common/memset.s(19)
+    memcpy.o                  common/memcpy.s(14)
+    ef3usb_fread.o            src/ef3usb_fread.s(5)
+    ef3usb_send_data.o        src/ef3usb_send_data.s(5)
+popptr1 (popptr1.o):
+    ltoa.o                    common/ltoa.s(9)
+    vcprintf.o                conio/vcprintf.s(8)
+    strcmp.o                  common/strcmp.s(8)
+    mul8.o                    runtime/mul8.s(9)
+    memcpy.o                  common/memcpy.s(14)
+ptr1 (zeropage.o):
+    vsnprintf.o               common/vsnprintf.s(11)
+    strlower.o                common/strlower.s(13)
+    ltoa.o                    common/ltoa.s(11)
+    _printf.o                 /home/travis/build/cc65/cc65/asminc/zeropage.inc(12)
+    zerobss.o                 common/zerobss.s(9)
+    vcprintf.o                conio/vcprintf.s(10)
+    strcmp.o                  common/strcmp.s(9)
+    sprintf.o                 common/sprintf.s(9)
+    popptr1.o                 runtime/popptr1.s(9)
+    mul8.o                    runtime/mul8.s(10)
+    memset.o                  common/memset.s(20)
+    memcpy.o                  common/memcpy.s(15)
+    malloc.o                  common/malloc.s(108)
+    joy-kernel.o              joystick/joy-kernel.s(8)
+    free.o                    common/free.s(62)
+    cputs.o                   conio/cputs.s(10)
+    cprintf.o                 conio/cprintf.s(9)
+    copydata.o                common/copydata.s(9)
+    ef3usb_fload.o            src/ef3usb_fload.s(3)
+    ef3usb_fread.o            src/ef3usb_fread.s(3)
+    ef3usb_send_str.o         src/ef3usb_send_str.s(3)
+    ef3usb_send_data.o        src/ef3usb_send_data.s(3)
+    launcher_asm.o            launcher_asm.s(23)
+    dir.o                     build/dir.s(11)
+    main.o                    build/main.s(11)
+ptr2 (zeropage.o):
+    strlower.o                common/strlower.s(13)
+    strlen.o                  common/strlen.s(12)
+    ltoa.o                    common/ltoa.s(11)
+    _printf.o                 /home/travis/build/cc65/cc65/asminc/zeropage.inc(12)
+    vcprintf.o                conio/vcprintf.s(10)
+    strcmp.o                  common/strcmp.s(9)
+    memset.o                  common/memset.s(20)
+    memcpy.o                  common/memcpy.s(15)
+    malloc.o                  common/malloc.s(108)
+    free.o                    common/free.s(62)
+    copydata.o                common/copydata.s(9)
+    ef3usb_fload.o            src/ef3usb_fload.s(3)
+    ef3usb_fread.o            src/ef3usb_fread.s(3)
+    ef3usb_send_data.o        src/ef3usb_send_data.s(3)
+ptr3 (zeropage.o):
+    ltoa.o                    common/ltoa.s(11)
+    vcprintf.o                conio/vcprintf.s(10)
+    memset.o                  common/memset.s(20)
+    memcpy.o                  common/memcpy.s(15)
+    malloc.o                  common/malloc.s(108)
+    free.o                    common/free.s(62)
+    ef3usb_fload.o            src/ef3usb_fload.s(3)
+    ef3usb_fread.o            src/ef3usb_fread.s(3)
+    ef3usb_send_data.o        src/ef3usb_send_data.s(3)
+ptr4 (zeropage.o):
+    mul8.o                    runtime/mul8.s(10)
+    free.o                    common/free.s(62)
+    ef3usb_fload.o            src/ef3usb_fload.s(3)
+push1 (push1.o):
+    _printf.o                 common/_printf.s(11)
+pusha (pusha.o):
+    kff_usb.o                 build/kff_usb.s(170)
+    kff_usb.o                 build/kff_usb.s(170)
+    kff_usb.o                 build/kff_usb.s(170)
+    screen.o                  build/screen.s(211)
+    screen.o                  build/screen.s(211)
+    screen.o                  build/screen.s(211)
+    main.o                    build/main.s(2369)
+    main.o                    build/main.s(2369)
+    main.o                    build/main.s(2369)
+    main.o                    build/main.s(2369)
+    main.o                    build/main.s(2369)
+    main.o                    build/main.s(2369)
+    main.o                    build/main.s(2369)
+    main.o                    build/main.s(2369)
+    main.o                    build/main.s(2369)
+    main.o                    build/main.s(2369)
+pusha0 (pushax.o):
+    push1.o                   runtime/push1.s(8)
+    dir.o                     build/dir.s(247)
+    main.o                    build/main.s(2369)
+pushax (pushax.o):
+    _printf.o                 common/_printf.s(11)
+    vcprintf.o                conio/vcprintf.s(8)
+    cprintf.o                 conio/cprintf.s(8)
+    kff_usb.o                 build/kff_usb.s(170)
+    kff_usb.o                 build/kff_usb.s(170)
+    dir.o                     build/dir.s(247)
+    dir.o                     build/dir.s(247)
+    screen.o                  build/screen.s(211)
+    main.o                    build/main.s(2369)
+    main.o                    build/main.s(2369)
+    main.o                    build/main.s(2369)
+    main.o                    build/main.s(2369)
+    main.o                    build/main.s(2369)
+    main.o                    build/main.s(2369)
+pusheax (lpush.o):
+    _printf.o                 common/_printf.s(11)
+pushw0sp (pushwsp.o):
+    vsprintf.o                common/vsprintf.s(8)
+    dir.o                     build/dir.s(247)
+putchar (cputc.o):
+    cvline.o                  cbm/cvline.s(9)
+regbank (zeropage.o):
+    _printf.o                 /home/travis/build/cc65/cc65/asminc/zeropage.inc(14)
+sp (zeropage.o):
+    vsnprintf.o               common/vsnprintf.s(11)
+    staxsp.o                  runtime/staxsp.s(8)
+    lpush.o                   runtime/lpush.s(13)
+    decsp6.o                  runtime/decsp6.s(8)
+    decsp4.o                  runtime/decsp4.s(8)
+    addysp.o                  runtime/addysp.s(8)
+    _printf.o                 /home/travis/build/cc65/cc65/asminc/zeropage.inc(11)
+    _heap.o                   common/_heap.s(9)
+    vcprintf.o                conio/vcprintf.s(10)
+    sprintf.o                 common/sprintf.s(9)
+    pushwsp.o                 runtime/pushwsp.s(8)
+    pushax.o                  runtime/pushax.s(8)
+    pusha.o                   runtime/pusha.s(8)
+    popptr1.o                 runtime/popptr1.s(9)
+    popa.o                    runtime/popa.s(8)
+    memset.o                  common/memset.s(20)
+    memcpy.o                  common/memcpy.s(15)
+    ldaxsp.o                  runtime/ldaxsp.s(8)
+    incsp2.o                  runtime/incsp2.s(8)
+    incsp1.o                  runtime/incsp1.s(8)
+    icmp.o                    runtime/icmp.s(9)
+    cprintf.o                 conio/cprintf.s(9)
+    add.o                     runtime/add.s(12)
+    kff_usb.o                 build/kff_usb.s(10)
+    screen.o                  build/screen.s(10)
+    main.o                    build/main.s(10)
+    crt0.crt.o                C:\ST\cc65\asminc/zeropage.inc(11)
+sreg (zeropage.o):
+    lneg.o                    runtime/lneg.s(11)
+    ltoa.o                    common/ltoa.s(11)
+    lpush.o                   runtime/lpush.s(13)
+    axlong.o                  runtime/axlong.s(9)
+    _printf.o                 /home/travis/build/cc65/cc65/asminc/zeropage.inc(11)
+    icmp.o                    runtime/icmp.s(9)
+    dir.o                     build/dir.s(10)
+    main.o                    build/main.s(10)
+staxysp (staxsp.o):
+    vsprintf.o                common/vsprintf.s(8)
+tmp1 (zeropage.o):
+    ltoa.o                    common/ltoa.s(11)
+    _printf.o                 /home/travis/build/cc65/cc65/asminc/zeropage.inc(13)
+    vcprintf.o                conio/vcprintf.s(10)
+    incaxy.o                  runtime/incaxy.s(8)
+    cvline.o                  cbm/cvline.s(10)
+    cputs.o                   conio/cputs.s(10)
+    copydata.o                common/copydata.s(9)
+    chline.o                  cbm/chline.s(10)
+    cclear.o                  cbm/cclear.s(10)
+    add.o                     runtime/add.s(12)
+    ef3usb_fload.o            src/ef3usb_fload.s(4)
+    ef3usb_fread.o            src/ef3usb_fread.s(4)
+    ef3usb_send_data.o        src/ef3usb_send_data.s(4)
+    base.o                    build/base.s(11)
+tosaddax (add.o):
+    dir.o                     build/dir.s(247)
+    main.o                    build/main.s(2369)
+tosicmp (icmp.o):
+    screen.o                  build/screen.s(211)
+tosicmp0 (icmp.o):
+    main.o                    build/main.s(2369)
+tosmula0 (mul8.o):
+    dir.o                     build/dir.s(247)
+    main.o                    build/main.s(2369)
+vsnprintf (vsnprintf.o):
+    vsprintf.o                common/vsprintf.s(9)
+zerobss (zerobss.o):
+    crt0.crt.o                crt0.crt.s(34)
+
