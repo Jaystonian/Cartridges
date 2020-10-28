@@ -1,0 +1,78 @@
+ARM GAS  C:\Users\Jay\AppData\Local\Temp\ccbxxwNu.s 			page 1
+
+
+   1              		.cpu cortex-m7
+   2              		.eabi_attribute 27, 1
+   3              		.eabi_attribute 28, 1
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 2
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.file	"ffunicode.c"
+  14              		.text
+  15              		.section	.text.ff_uni2oem,"ax",%progbits
+  16              		.align	1
+  17              		.p2align 2,,3
+  18              		.global	ff_uni2oem
+  19              		.syntax unified
+  20              		.thumb
+  21              		.thumb_func
+  22              		.fpu fpv5-sp-d16
+  24              	ff_uni2oem:
+  25              		@ args = 0, pretend = 0, frame = 0
+  26              		@ frame_needed = 0, uses_anonymous_args = 0
+  27              		@ link register save eliminated.
+  28 0000 80B2     		uxth	r0, r0
+  29 0002 7047     		bx	lr
+  31              		.section	.text.ff_oem2uni,"ax",%progbits
+  32              		.align	1
+  33              		.p2align 2,,3
+  34              		.global	ff_oem2uni
+  35              		.syntax unified
+  36              		.thumb
+  37              		.thumb_func
+  38              		.fpu fpv5-sp-d16
+  40              	ff_oem2uni:
+  41              		@ args = 0, pretend = 0, frame = 0
+  42              		@ frame_needed = 0, uses_anonymous_args = 0
+  43              		@ link register save eliminated.
+  44 0000 7047     		bx	lr
+  46 0002 00BF     		.section	.text.ff_wtoupper,"ax",%progbits
+  47              		.align	1
+  48              		.p2align 2,,3
+  49              		.global	ff_wtoupper
+  50              		.syntax unified
+  51              		.thumb
+  52              		.thumb_func
+  53              		.fpu fpv5-sp-d16
+  55              	ff_wtoupper:
+  56              		@ args = 0, pretend = 0, frame = 0
+  57              		@ frame_needed = 0, uses_anonymous_args = 0
+  58              		@ link register save eliminated.
+  59 0000 A0F16103 		sub	r3, r0, #97
+  60 0004 192B     		cmp	r3, #25
+  61 0006 98BF     		it	ls
+  62 0008 2038     		subls	r0, r0, #32
+ARM GAS  C:\Users\Jay\AppData\Local\Temp\ccbxxwNu.s 			page 2
+
+
+  63 000a 7047     		bx	lr
+  65              		.ident	"GCC: (GNU Tools for STM32 7-2018-q2-update.20190328-1800) 7.3.1 20180622 (release) [ARM/em
+ARM GAS  C:\Users\Jay\AppData\Local\Temp\ccbxxwNu.s 			page 3
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 ffunicode.c
+C:\Users\Jay\AppData\Local\Temp\ccbxxwNu.s:16     .text.ff_uni2oem:0000000000000000 $t
+C:\Users\Jay\AppData\Local\Temp\ccbxxwNu.s:24     .text.ff_uni2oem:0000000000000000 ff_uni2oem
+C:\Users\Jay\AppData\Local\Temp\ccbxxwNu.s:32     .text.ff_oem2uni:0000000000000000 $t
+C:\Users\Jay\AppData\Local\Temp\ccbxxwNu.s:40     .text.ff_oem2uni:0000000000000000 ff_oem2uni
+C:\Users\Jay\AppData\Local\Temp\ccbxxwNu.s:47     .text.ff_wtoupper:0000000000000000 $t
+C:\Users\Jay\AppData\Local\Temp\ccbxxwNu.s:55     .text.ff_wtoupper:0000000000000000 ff_wtoupper
+
+NO UNDEFINED SYMBOLS
