@@ -3,15 +3,14 @@ MONster64 -- An STM32 Development Board for Commodore C64 & C128 Expansion Port
 * Effectively an upgraded version of "Kung Fu Flash"
 
 * fixes the PAL-only problem with KFF, due to jumper choice of DOTCLK or 
-    standard 8MHz clock.  Internal PLL set to ~466Mhz @ 8.000 MHz OSC_IN,
-    which puts it close to 480MHz for NTSC and over 450MHz for PAL.
-
-* may be installed with lightly modified code from kung fu flash, only some 
-    GPIOs need changing.
+    standard 8MHz clock.  Internal PLL set to 468Mhz @ 8.000 MHz OSC_IN,
+    which puts it close to 480MHz for NTSC and ~460MHz for PAL.
 
 * may be installed with most other ARM-based code, such as BackBit, with light
     changes to GPIO.
 
+* can be programmed with ST-LINK V2 or V3. I was unsuccessful connecting 
+    a "blue pill" STM32F103 programmed to be an ST-LINK.
 
 Contains an ARM Cortex M7 microcontroller, 22 exposed GPIO, 256MB Flash RAM, 
 MicroSD card, MicroUSB -- all on a 2-LAYER PCB!
