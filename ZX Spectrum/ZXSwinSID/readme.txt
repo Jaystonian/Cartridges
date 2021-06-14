@@ -1,1 +1,1 @@
-Based on "Rev C" branch.
+Based on "Rev D" branch.
